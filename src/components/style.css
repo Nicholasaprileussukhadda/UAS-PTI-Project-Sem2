@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#Footer1{
+  padding: 10px;
+  background-color: blue;
+}
+
+#alamat{
+  color: white;
+  font-size: 10px;
+}
+
+#logoumn{
+  float:right;
+}
