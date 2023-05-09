@@ -1,7 +1,8 @@
 import React from "react";
+import MyLink from "./Mylink";
 import "./style.css";
 
-function Card(props) {
+function MainPage(props) {
     return (
         <div className="container">
             <h1>{props.kota}</h1>
@@ -9,4 +10,4 @@ function Card(props) {
     );
 }
 
-export default Card;
+export default Mainpage;
