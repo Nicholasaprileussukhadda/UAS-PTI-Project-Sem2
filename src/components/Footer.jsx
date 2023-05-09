@@ -14,7 +14,7 @@ function Footer(){
                     <div className="col-sm-6">
                     </div>
                     <div className="col-sm-3">
-                        //logo UMN//
+                        <img src="../Gambar/universitas-multimedia-musantara.png"><a href="https://www.umn.ac.id/en/home/"></a>
                     </div>
                 </div>
             </div>
