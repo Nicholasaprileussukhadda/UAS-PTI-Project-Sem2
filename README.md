@@ -1,1 +1,0 @@
-# UAS-PTI-Project-Sem2
