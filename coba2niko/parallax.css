@@ -1,0 +1,149 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    backdrop-filter: blur(6px); /* Adjust the blur value as needed */
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust the background color and transparency as needed */
+  }
+  
+
+.parallax{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.blank{
+    background-color:ghostwhite;
+}
+
+.intro{
+    background-image: url('./gambar/JakartaKota.jpg');
+}
+
+.content{
+    background-image: url('./gambar/wisata.jpg');
+}
+
+.footer{
+    background-image: url('./gambar/kuliner.jpg');
+}
+
+.css-jakarta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.css-jakarta h1{
+    font-size: 70px;
+    margin-top: 85px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content {
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+    
+}
+
+.carousel-css{
+    align-items: center;
+   bottom: 0;
+}
+
+.img-css img{
+    width: 50%;
+    height: 50%;
+}
+
+/* body {
+    background-image: url('http://7-themes.com/data_images/out/65/6995506-wood-textured-desktop-background.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: no-repeat fixed center center cover;
+    overflow: hidden;
+} */
+
+.content-box {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    max-width: fit-content;
+    min-width: fit-content;
+    max-height: fit-content;
+    min-height: fit-content;
+}
+
+.content-bg {
+    position: absolute;
+    background-size: cover;
+    background-image: url('http://7-themes.com/data_images/out/65/6995506-wood-textured-desktop-background.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: no-repeat fixed center center cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.content {
+    border-radius: 10px;
+    z-index: 100;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    }
+
+
+    @media (max-width: 768px) {
+        .carousel-inner .carousel-item > div {
+            display: none;
+        }
+        .carousel-inner .carousel-item > div:first-child {
+            display: block;
+        }
+    }
+    
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex;
+    }
+    
+    /* display 3 */
+    @media (min-width: 768px) {
+        
+        .carousel-inner .carousel-item-right.active,
+        .carousel-inner .carousel-item-next {
+          transform: translateX(33.333%);
+        }
+        
+        .carousel-inner .carousel-item-left.active, 
+        .carousel-inner .carousel-item-prev {
+          transform: translateX(-33.333%);
+        }
+    }
+    
+    .carousel-inner .carousel-item-right,
+    .carousel-inner .carousel-item-left{ 
+      transform: translateX(0);
+    }
+
+
