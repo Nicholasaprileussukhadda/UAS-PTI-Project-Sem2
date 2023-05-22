@@ -27,15 +27,15 @@ html{
 }
 
 .intro{
-    background-image: url('./gambar/JakartaKota.jpg');
+    background-image: url('../src/gambar/jakarta/wisata/JakartaKota.jpg');
 }
 
 .content{
-    background-image: url('./gambar/wisata.jpg');
+    background-image: url('../src/gambar/jakarta/kuliner/kuliner.jpg');
 }
 
 .footer{
-    background-image: url('./gambar/kuliner.jpg');
+    background-image: url('../src/gambar/jakarta/kuliner/kuliner.jpg');
 }
 
 .css-jakarta{
