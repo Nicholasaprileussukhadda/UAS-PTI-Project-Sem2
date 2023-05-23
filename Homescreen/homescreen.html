@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clickable Point in Image</title>
+  <link rel="stylesheet" href="homescreen.css">
+</head>
+<body>
+  <div class="image-container">
+    <img src="../img/Indo_map.png" alt="Image" />
+
+    <div class="point" style="left: 140px; top: 262px;" onclick="showDetails('Padang')"></div>
+    <div class="point" style="left: 88px; top: 131px;" onclick="showDetails('Medan')"></div>
+    <div class="point" style="left: 396px; top: 237px;" onclick="showDetails('Pontianak')"></div>
+    <div class="point" style="left: 619px; top: 254px;" onclick="showDetails('Samarinda')"></div>
+    <div class="point" style="left: 686px; top: 379px;" onclick="showDetails('Makassar')"></div>
+    <div class="point" style="left: 836px; top: 194px;" onclick="showDetails('Manado')"></div>
+    <div class="point" style="left: 425px; top: 436px;" onclick="showDetails('Semarang')"></div>
+    <div class="point" style="left: 562px; top: 481px;" onclick="showDetails('Denpasar')"></div>
+    <div class="point" style="left: 1260px; top: 308px;" onclick="showDetails('Jayapura')"></div>
+    <div class="point" style="left: 1022px; top: 260px;" onclick="showDetails('Sorong')"></div>
+  </div>
+
+  <script>
+    function showDetails(place) {
+      alert("Details about " + place);
+    }
+  </script>
+</body>
+</html>
+
+<!-- Padang 140, 262
+    Medan 88, 131
+    Pontianak 396, 237
+    Samarinda 619, 254
+    Makassar 686, 379
+    Manado 836, 194
+    Semarang 425, 436
+    Denpasar 562, 481
+    Jayapura 1260, 308
+    Sorong 1022, 260-->
