@@ -16,6 +16,11 @@ const SideBar = () => {
           <FontAwesomeIcon /> About
         </Nav.Link>
       </Nav.Item>
+      <Nav.Item>
+        <Nav.Link href="Quiz.html" active>
+          <FontAwesomeIcon /> Quiz
+        </Nav.Link>
+      </Nav.Item>
     </Nav>
   );
 };
