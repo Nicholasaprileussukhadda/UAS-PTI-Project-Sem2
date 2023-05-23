@@ -31,7 +31,7 @@ html{
 }
 
 .content{
-    background-image: url('../src/gambar/jakarta/kuliner/kuliner.jpg');
+    background-image: url('../src/gambar/jakarta/wisata/wisata.jpg');
 }
 
 .footer{
@@ -44,16 +44,16 @@ html{
     align-items: center;
     color: white;
 }
-.css-jakarta h1{
-    font-size: 70px;
+.css-jakarta h3{
+    font-size: 40px;
     margin-top: 85px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .box-content {
-    width: max-content;
-    height: max-content;
+    width: min-content;
+    height: min-content;
     border-radius: 20px;
     
 }
@@ -66,6 +66,33 @@ html{
 .img-css img{
     width: 50%;
     height: 50%;
+}
+
+.img-prov img {
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 769px) {
+    .img-prov img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.img-prov{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.desc-provinsi{
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 /* body {
@@ -81,7 +108,7 @@ html{
 
 .content-box {
     position: relative;
-    width: 300px;
+    width: 70px;
     overflow: hidden;
     max-width: fit-content;
     min-width: fit-content;
@@ -147,3 +174,19 @@ html{
     }
 
 
+    .carousel-item img{
+        width: 50%;
+        justify-content: center;
+    }
+
+    .parallax.content {
+        position: relative;
+        min-height: 100vh; /* Pastikan elemen ini memiliki tinggi minimal setara dengan tinggi viewport */
+      }
+      
+      #carouselExample {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 40px;
+      }
+      
