@@ -87,7 +87,6 @@ html{
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
 }
 
 .desc-provinsi{
@@ -196,17 +195,25 @@ html{
       #kuliner img{
         width: 69%;
         height: 69%;
-        border-radius: 20px;
+        border-radius: 40px;
       }
 
       .kuliner-desc{
         background-color: aliceblue;
         width: fit-content;
         height: fit-content;
+        margin-top: 30px;
       }
 
     .kuliner-container{
 
+    }
+
+    .kuliner-1{
+        background-color: black;
+        width: auto;
+        height: auto;
+        border-radius: 40px;
     }
 
 
