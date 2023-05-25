@@ -41,7 +41,6 @@ html{
 .css-jakarta{
     display: flex;
     justify-content: center;
-    align-items: center;
     color: white;
 }
 .css-jakarta h3{
@@ -52,8 +51,8 @@ html{
 }
 
 .box-content {
-    width: min-content;
-    height: min-content;
+    width: max-content;
+    height: max-content;
     border-radius: 20px;
     
 }
@@ -66,6 +65,10 @@ html{
 .img-css img{
     width: 50%;
     height: 50%;
+}
+
+.img-prov{
+    margin: 35px;
 }
 
 .img-prov img {
@@ -189,4 +192,23 @@ html{
         bottom: 0;
         padding-bottom: 40px;
       }
+
+      #kuliner img{
+        width: 69%;
+        height: 69%;
+        border-radius: 20px;
+      }
+
+      .kuliner-desc{
+        background-color: aliceblue;
+        width: fit-content;
+        height: fit-content;
+      }
+
+    .kuliner-container{
+
+    }
+
+
+      
       
