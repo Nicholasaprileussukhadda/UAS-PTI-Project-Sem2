@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Clickable Point in Image</title>
+  <title>Map</title>
   <link rel="stylesheet" href="homescreen.css">
 </head>
 <body>
-  <div class="image-container">
-    <img src="../img/Indo_map.png" alt="Image" />
+  <div class="container">
+    <div class="nav">
+      <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+    </div>
+    <div class="map-container">
+      <div class="image-container">
+        <img src="../img/Indo_map.png" alt="Image" class="map"/>
 
-    <div class="point" style="left: 140px; top: 262px;" onclick="showDetails('Padang')"></div>
-    <div class="point" style="left: 88px; top: 131px;" onclick="showDetails('Medan')"></div>
-    <div class="point" style="left: 396px; top: 233px;" onclick="showDetails('Pontianak')"></div>
-    <div class="point" style="left: 619px; top: 254px;" onclick="showDetails('Samarinda')"></div>
-    <div class="point" style="left: 686px; top: 379px;" onclick="showDetails('Makassar')"></div>
-    <div class="point" style="left: 836px; top: 194px;" onclick="showDetails('Manado')"></div>
-    <div class="point" style="left: 425px; top: 436px;" onclick="showDetails('Semarang')"></div>
-    <div class="point" style="left: 562px; top: 481px;" onclick="showDetails('Denpasar')"></div>
-    <div class="point" style="left: 1260px; top: 308px;" onclick="showDetails('Jayapura')"></div>
-    <div class="point" style="left: 1022px; top: 260px;" onclick="showDetails('Sorong')"></div>
+        <div class="point" style="left: 142px; top: 257px;" onclick="showDetails('Padang')"></div>
+        <div class="point" style="left: 98px; top: 118px;" onclick="showDetails('Medan')"></div>
+        <div class="point" style="left: 364px; top: 232px;" onclick="showDetails('Pontianak')"></div>
+        <div class="point" style="left: 557px; top: 249px;" onclick="showDetails('Samarinda')"></div>
+        <div class="point" style="left: 615px; top: 375px;" onclick="showDetails('Makassar')"></div>
+        <div class="point" style="left: 749px; top: 189px;" onclick="showDetails('Manado')"></div>
+        <div class="point" style="left: 301px; top: 409px;" onclick="showDetails('Jakarta')"></div>
+        <div class="point" style="left: 506px; top: 479px;" onclick="showDetails('Denpasar')"></div>
+        <div class="point" style="left: 1130px; top: 305px;" onclick="showDetails('Jayapura')"></div>
+        <div class="point" style="left: 908px; top: 259px;" onclick="showDetails('Sorong')"></div>
+      </div>
+      <div class="hover-box" id="detailsBox"></div>
+    </div>
   </div>
 
   <script>
     function showDetails(place) {
-      alert("Details about " + place);
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = "Details about " + place;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
     }
   </script>
 </body>
 </html>
 
-<!-- Padang 140, 262
-    Medan 88, 131
-    Pontianak 396, 237
-    Samarinda 619, 254
-    Makassar 686, 379
-    Manado 836, 194
-    Semarang 425, 436
-    Denpasar 562, 481
-    Jayapura 1260, 308
-    Sorong 1022, 260-->
+<!-- Padang 142, 257
+    Medan 98, 118
+    Pontianak 364, 232
+    Samarinda 557, 249
+    Makassar 615, 375
+    Manado 749, 189
+    Jakarta 301, 409
+    Denpasar 506, 479
+    Jayapura 1130, 305
+    Sorong 908, 259-->
