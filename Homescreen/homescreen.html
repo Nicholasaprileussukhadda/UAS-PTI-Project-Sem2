@@ -25,26 +25,26 @@
       <div class="image-container">
         <img src="../img/Indo_map.png" alt="Image" class="map"/>
 
-        <div class="point" style="left: 142px; top: 257px;" onclick="showDetails('Padang')"></div>
-        <div class="point" style="left: 98px; top: 118px;" onclick="showDetails('Medan')"></div>
-        <div class="point" style="left: 364px; top: 232px;" onclick="showDetails('Pontianak')"></div>
-        <div class="point" style="left: 557px; top: 249px;" onclick="showDetails('Samarinda')"></div>
-        <div class="point" style="left: 615px; top: 375px;" onclick="showDetails('Makassar')"></div>
-        <div class="point" style="left: 749px; top: 189px;" onclick="showDetails('Manado')"></div>
-        <div class="point" style="left: 301px; top: 409px;" onclick="showDetails('Jakarta')"></div>
-        <div class="point" style="left: 506px; top: 479px;" onclick="showDetails('Denpasar')"></div>
-        <div class="point" style="left: 1130px; top: 305px;" onclick="showDetails('Jayapura')"></div>
-        <div class="point" style="left: 908px; top: 259px;" onclick="showDetails('Sorong')"></div>
+        <div class="point" style="left: 142px; top: 257px;" onclick="Padang('Padang')"></div>
+        <div class="point" style="left: 98px; top: 118px;" onclick="Medan('Medan')"></div>
+        <div class="point" style="left: 364px; top: 232px;" onclick="Pontianak('Pontianak')"></div>
+        <div class="point" style="left: 557px; top: 249px;" onclick="Samarinda('Samarinda')"></div>
+        <div class="point" style="left: 615px; top: 375px;" onclick="Makassar('Makassar')"></div>
+        <div class="point" style="left: 749px; top: 189px;" onclick="Manado('Manado')"></div>
+        <div class="point" style="left: 301px; top: 409px;" onclick="Jakarta('Jakarta')"></div>
+        <div class="point" style="left: 506px; top: 479px;" onclick="Denpasar('Denpasar')"></div>
+        <div class="point" style="left: 1130px; top: 305px;" onclick="Jayapura('Jayapura')"></div>
+        <div class="point" style="left: 908px; top: 259px;" onclick="Sorong('Sorong')"></div>
       </div>
       <div class="hover-box" id="detailsBox"></div>
     </div>
   </div>
 
   <script>
-    function showDetails(place) {
+    function Padang(place) {
       var detailsBox = document.getElementById("detailsBox");
       detailsBox.innerHTML = `
-        <img src="download.jpg" alt="Gallery Image"><br/><br/>
+        <img src="../img/Padang.jpg" alt="Gallery Image" class="max-size"><br/><br/>
         <div class="tooltip-content">
           <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
           <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
@@ -56,6 +56,143 @@
         detailsBox.style.display = "none";
       }, 2000);
     }
+    function Medan(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Medan.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Pontianak(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Pontianak.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Samarinda(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Samarinda.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Makassar(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Makassar.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Manado(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Manado.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Jakarta(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Jakarta.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+
+    function Denpasar(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Denpasar.jpeg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Jayapura(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Jayapura.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+    function Sorong(place) {
+      var detailsBox = document.getElementById("detailsBox");
+      detailsBox.innerHTML = `
+        <img src="../img/Sorong.jpg" alt="Gallery Image" class="max-size"><br/><br/>
+        <div class="tooltip-content">
+          <p>Wisata yang pertama adalah pantai Sanur. Tempat ini adalah tujuan utama pengunjung yang ingin menikmati keindahan pantai di Denpasar. Pantai ini selalu ramai oleh turis lokal maupun mancanegara.</p>
+          <p>Wisata ini adalah spot paling cocok untuk menyaksikan pemandangan matahari terbit yang eksotis. Ombak yang ada di wisata ini pun juga menjadi pilihan yang tepat untuk para pengunjung yang senang berselancar.</p>
+        </div>
+        <br/><br/><a href="https://www.google.com">See More...</a>
+      `;
+      detailsBox.style.display = "block";
+      setTimeout(function() {
+        detailsBox.style.display = "none";
+      }, 2000);
+    }
+
   </script>
   <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
 
