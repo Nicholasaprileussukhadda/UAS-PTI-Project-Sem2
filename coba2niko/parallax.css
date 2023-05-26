@@ -20,6 +20,7 @@ html{
          border:2px solid #222;
          padding:5px 11px 3px 11px;
          margin-top: 60px;
+         margin-bottom: 10px;
   }
   .kota h1:before, .kota h1:after {
       background-color: #c50000;
@@ -42,6 +43,58 @@ html{
     backdrop-filter: blur(6px); /* Adjust the blur value as needed */
     background-color: rgba(0, 0, 0, 0.2); /* Adjust the background color and transparency as needed */
   }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    margin-top: 50px;
+  }
+  
+  .slider::before,
+  .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  
+  .slider .slide {
+    height: 150px;
+    width: 300px;
+  }
   
 
 .parallax{
@@ -56,17 +109,29 @@ html{
     background-color:ghostwhite;
 }
 
-.intro{
+.kota{
     background-image: url('../src/gambar/jakarta/wisata/JakartaKota.jpg');
 }
 
-.content{
+.wisata{
     background-image: url('../src/gambar/jakarta/wisata/wisata.jpg');
 }
 
-.footer{
+.kuliner{
     background-image: url('../src/gambar/jakarta/kuliner/kuliner.jpg');
 }
+
+footer{
+    background-image: url('../about/images/footer.jpg');
+  }
+  
+  .footer {
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px ;
+  }
 
 .css-jakarta{
     display: flex;
@@ -156,7 +221,7 @@ html{
       }
 
     .kuliner-container{
-
+        font-family: sans-serif;
     }
 
     .kuliner-1{
@@ -370,6 +435,70 @@ html{
      .br{
         padding-top: 3px;
      }
+
+     .containter-wisata h1 {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+      }
+      
+     .container-wisata img {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        z-index: -1;
+        grid-area: 1/1;
+        object-fit: cover;
+      }
+      
+      .container-wisata {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        z-index: 1;
+        gap: 20px;
+      }
+      
+      .cont-items {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 80vh;
+        width: 150px;
+        border: solid 5px;
+        border-color: black;
+        border-radius: 200px;
+        overflow: hidden;
+        display: grid;
+        transition: border-radius 625ms, width 625ms;
+        user-select: none;
+        isolation: isolate;
+      }
+      
+
+      .container-wisata:hover > .cont-items {
+        opacity: 1;
+      }
+      
+      .container-wisata:hover > .cont-items:hover {
+        opacity: 1;
+        width: 90vw;
+        border-radius: 50px;
+      }
+
+      
+      .icon {
+        width: 100px;
+        height: 100px;
+        margin-inline: auto;
+        border-radius: 50px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        grid-area: 1/1;
+        transition: width 1000ms;
+        translate: 0 20px;
+      }
+      
       
 
 

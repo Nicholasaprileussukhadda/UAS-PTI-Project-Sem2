@@ -10,6 +10,10 @@ body {
   display: flex;
   width: 100vh;
   padding: 1px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 280px;
 }
 .card {
   height: 200px;
@@ -45,10 +49,18 @@ body {
 }
 
 .navbar {
-  backdrop-filter: blur(6px); /* Adjust the blur value as needed */
-  background-color: rgba(0, 0, 0, 0.2); /* Adjust the background color and transparency as needed */
+  backdrop-filter: blur(6px); 
+  background-color: rgba(0, 0, 0, 0.2); 
 }
 
 footer{
   background-image: url('../about/images/footer.jpg');
+}
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
