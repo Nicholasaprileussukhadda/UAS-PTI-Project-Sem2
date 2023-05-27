@@ -114,7 +114,7 @@ html{
 }
 
 .wisata{
-    background-image: url('../src/gambar/jakarta/wisata/wisata.jpg');
+    background-image: url('../src/gambar/jakarta/wisata/wisata-jakarta.jpg');
 }
 
 .kuliner{
@@ -497,6 +497,10 @@ footer{
         grid-area: 1/1;
         transition: width 1000ms;
         translate: 0 20px;
+      }
+
+      .icon p{
+        margin-top: 35px;
       }
       
       
