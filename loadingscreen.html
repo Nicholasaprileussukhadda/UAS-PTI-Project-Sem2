@@ -53,16 +53,17 @@
     </div>
   </div>
   
-  <h1>Welcome to my website!</h1>
+  <h1>Welcome to TravelIndo</h1>
+  <p>Discover Your Next Destination With Us!</p>
   
   <script>
     // Add the 'active' class to the loading screen to show it
     document.querySelector('.loading-screen').classList.add('active');
     
-    // Remove the 'active' class after a delay to hide it
     setTimeout(function() {
       document.querySelector('.loading-screen').classList.remove('active');
-    }, 3000); // Change the delay to suit your needs
+      window.location.href = "homescreen.html"; // Ganti dengan URL atau path halaman tujuan
+    }, 3000); // Ubah delay sesuai kebutuhan Anda
   </script>
 </body>
 </html>
