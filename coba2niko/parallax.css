@@ -125,7 +125,7 @@ textarea:placeholder-shown {
     outline: 0px solid transparent;
     width: fit-content;
     height: fit-content;
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
     margin-top: 200px;
     text-align: center;
