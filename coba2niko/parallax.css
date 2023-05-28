@@ -117,15 +117,12 @@ textarea:placeholder-shown {
   line-height: 1em;
 }
 .centerForm {
-  position: relative;
-  padding: 12px 16px;
-  border-radius: 6px;
-  margin-top: 250px;
-  transition: transform 0.3s;
+  [contenteditable] {
+    outline: 0px solid transparent;
+  }
 }
 
 .centerForm:hover {
-  transform: translateX(60%);
   left: 40%;
 }
 
@@ -580,7 +577,6 @@ footer{
       
       .cont-items {
         color: white;
-        background-image: url('../src/gambar/jakarta/wisata/wisata-taman-mini.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 80vh;
@@ -624,9 +620,6 @@ footer{
         margin-top: 35px;
       }
       
-      .icon-desc{
-
-      }
       
       
 
