@@ -125,7 +125,7 @@ textarea:placeholder-shown {
     outline: 0px solid transparent;
     width: fit-content;
     height: fit-content;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.805);
     border-radius: 20px;
     margin-top: 200px;
     text-align: center;
@@ -629,7 +629,121 @@ footer{
         transition: border-radius 625ms, width 625ms;
       }
 
+      .cont-items1{
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 150px;
+        border: solid 5px;
+        border-color: black;
+        border-radius: 200px;
+        overflow: hidden;
+        display: grid;
+        transition: border-radius 625ms, width 625ms;
+        user-select: none;
+        isolation: isolate;
+        background-image: url('../src/gambar/jakarta/wisata/wisata-dufan.png');
+      }
       
+
+      .container-wisata:hover > .cont-items1 {
+        opacity: 1;
+      }
+      
+      .container-wisata:hover > .cont-items1:hover {
+        opacity: 1;
+        width: 90vw;
+        border-radius: 50px;
+        transition: border-radius 625ms, width 625ms;
+      }
+
+      .cont-items2{
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 150px;
+        border: solid 5px;
+        border-color: black;
+        border-radius: 200px;
+        overflow: hidden;
+        display: grid;
+        transition: border-radius 625ms, width 625ms;
+        user-select: none;
+        isolation: isolate;
+        background-image: url('../src/gambar/jakarta/wisata/wisata-pik.jpg');
+      }
+      
+
+      .container-wisata:hover > .cont-items2 {
+        opacity: 1;
+      }
+      
+      .container-wisata:hover > .cont-items2:hover {
+        opacity: 1;
+        width: 90vw;
+        border-radius: 50px;
+        transition: border-radius 625ms, width 625ms;
+      }
+
+      .cont-items3{
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 150px;
+        border: solid 5px;
+        border-color: black;
+        border-radius: 200px;
+        overflow: hidden;
+        display: grid;
+        transition: border-radius 625ms, width 625ms;
+        user-select: none;
+        isolation: isolate;
+        background-image: url('../src/gambar/jakarta/wisata/wisata-monas.jpg');
+      }
+      
+
+      .container-wisata:hover > .cont-items3 {
+        opacity: 1;
+      }
+      
+      .container-wisata:hover > .cont-items3:hover {
+        opacity: 1;
+        width: 90vw;
+        border-radius: 50px;
+        transition: border-radius 625ms, width 625ms;
+      }
+
+      .cont-items4{
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 150px;
+        border: solid 5px;
+        border-color: black;
+        border-radius: 200px;
+        overflow: hidden;
+        display: grid;
+        transition: border-radius 625ms, width 625ms;
+        user-select: none;
+        isolation: isolate;
+        background-image: url('../src/gambar/jakarta/wisata/wisata-kota-tua.jpg');
+      }
+      
+
+      .container-wisata:hover > .cont-items4 {
+        opacity: 1;
+      }
+      
+      .container-wisata:hover > .cont-items4:hover {
+        opacity: 1;
+        width: 90vw;
+        border-radius: 50px;
+        transition: border-radius 625ms, width 625ms;
+      }
       .icon {
         width: 100px;
         height: 100px;
