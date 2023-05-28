@@ -261,6 +261,19 @@ footer{
     background-color: aliceblue;
 }
 
+.desc-provinsi h3{
+  padding: 5px;
+  border-radius: 25px ; 
+  box-shadow: 15px 15px silver;
+  padding: 15px; 
+  margin: 10px 0;
+  background-color: aliceblue;
+  height: fit-content;
+  width: fit-content;
+}
+
+
+
     .parallax.content {
         position: relative;
         min-height: 100vh; 
