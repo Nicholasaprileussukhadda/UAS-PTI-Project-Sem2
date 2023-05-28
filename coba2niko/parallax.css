@@ -128,7 +128,19 @@ textarea:placeholder-shown {
     background-color: aliceblue;
     border-radius: 20px;
     margin-top: 200px;
+    text-align: center;
+    color: black;
 }
+/* width: 100px;
+height: 100px;
+margin-inline: auto;
+border-radius: 50px;
+color: black;
+background-color: rgba(255, 255, 255, 0.6);
+text-align: center;
+grid-area: 1/1;
+transition: width 1000ms;
+translate: 0 20px; */
 
 .centerForm:hover {
   left: 40%;
@@ -628,6 +640,7 @@ footer{
         text-align: center;
         grid-area: 1/1;
         transition: width 1000ms;
+        translate: 0 20px;
       }
 
       .icon p{
