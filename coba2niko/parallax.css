@@ -171,6 +171,11 @@ footer{
     padding-top: 50px ;
   }
 
+  footer img{
+    width: 160px;
+    height: 160px;
+  }
+
 .css-jakarta{
     display: flex;
     justify-content: center;
