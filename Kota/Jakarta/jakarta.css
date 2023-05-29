@@ -160,19 +160,19 @@ translate: 0 20px; */
 }
 
 .kota{
-    background-image: url('../src/gambar/jakarta/kota-jakarta.jpg');
+    background-image: url('./jakarta-img/kota-jakarta.jpg');
 }
 
 .wisata{
-    background-image: url('../src/gambar/jakarta/wisata/wisata-jakarta.jpg');
+    background-image: url('./jakarta-img/wisata/wisata-jakarta.jpg');
 }
 
 .kuliner{
-    background-image: url('../src/gambar/jakarta/kuliner/kuliner.-jakarta.jpg');
+    background-image: url('./jakarta-img/kuliner/kuliner.-jakarta.jpg');
 }
 
 footer{
-    background-image: url('../about/images/footer.jpg');
+    background-image: url('./jakarta-img/footer.jpg');
   }
   
   .footer {
@@ -343,7 +343,7 @@ footer{
         width: 120px;
         flex-shrink: 0;
         height: 120px;
-        background-image: url('../src/gambar/jakarta/kuliner/gabus-pucung.jpeg');
+        background-image: url('./jakarta-img/kuliner/gabus-pucung.jpeg');
         background-size: cover;
         background-position: center;
         box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
@@ -355,7 +355,7 @@ footer{
       width: 120px;
       flex-shrink: 0;
       height: 120px;
-      background-image: url('../src/gambar/jakarta/kuliner/kerak-telor.jpg');
+      background-image: url('./jakarta-img/kuliner/kerak-telor.jpg');
       background-size: cover;
       background-position: center;
       box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
@@ -367,7 +367,7 @@ footer{
     width: 120px;
     flex-shrink: 0;
     height: 120px;
-    background-image: url('../src/gambar/jakarta/kuliner/soto-betawi.jpg');
+    background-image: url('./jakarta-img/kuliner/soto-betawi.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
@@ -614,7 +614,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('../src/gambar/jakarta/wisata/wisata-taman-mini.jpeg');
+        background-image: url('./jakarta-img/wisata/wisata-taman-mini.jpeg');
       }
       
 
@@ -643,7 +643,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('../src/gambar/jakarta/wisata/wisata-dufan.png');
+        background-image: url('./jakarta-img/wisata/wisata-dufan.png');
       }
       
 
@@ -672,7 +672,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('../src/gambar/jakarta/wisata/wisata-pik.jpg');
+        background-image: url('./jakarta-img/wisata/wisata-pik.jpg');
       }
       
 
@@ -701,7 +701,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('../src/gambar/jakarta/wisata/wisata-monas.jpg');
+        background-image: url('./jakarta-img/wisata/wisata-monas.jpg');
       }
       
 
@@ -730,7 +730,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('../src/gambar/jakarta/wisata/wisata-kota-tua.jpg');
+        background-image: url('./jakarta-img/wisata/wisata-kota-tua.jpg');
       }
       
 
