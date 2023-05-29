@@ -161,10 +161,10 @@ ul.navbar li a:hover {
       var pinpoint = document.getElementById("pinpoint");
       var mapContainer = document.querySelector(".map-container");
       var containerRect = mapContainer.getBoundingClientRect();
-      var offsetX = event.clientX - containerRect.left;
-      var offsetY = event.clientY - containerRect.top;
-      pinpoint.style.left = offsetX + "px";
-      pinpoint.style.top = offsetY + "px";
+      var offsetX = ((event.clientX - containerRect.left) / containerRect.width) * 100;
+      var offsetY = ((event.clientY - containerRect.top) / containerRect.height) * 100;
+      pinpoint.style.left = offsetX + "%";
+      pinpoint.style.top = offsetY + "%";
     }
   </script>
 </body>
