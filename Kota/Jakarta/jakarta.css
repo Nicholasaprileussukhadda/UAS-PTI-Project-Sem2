@@ -614,6 +614,8 @@ footer{
         justify-content: space-between;
         z-index: 1;
         gap: 20px;
+        width: 90%;
+        margin-left: 5%;
       }
       
       .cont-items {
