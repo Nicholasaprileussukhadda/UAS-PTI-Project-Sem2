@@ -160,19 +160,19 @@ translate: 0 20px; */
 }
 
 .kota{
-    background-image: url('./medan-img/kota-medan.webp');
+    background-image: url('./sorong-img/kota-sorong.jpg');
 }
 
 .wisata{
-    background-image: url('./medan-img/wisata/medan-wisata.jpeg');
+    background-image: url('./sorong-img/wisata/wisata-sorong.jpg');
 }
 
 .kuliner{
-    background-image: url('./medan-img/kuliner/2indonesia_medan_food.avif');
+    background-image: url('./sorong-img/kuliner/kuliner-sorong.webp');
 }
 
 footer{
-    background-image: url('./medan-img/footer.jpg');
+    background-image: url('./sorong-img/footer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -359,7 +359,7 @@ footer{
         width: 120px;
         flex-shrink: 0;
         height: 120px;
-        background-image: url('./medan-img/kuliner/mie-gomak.jpg');
+        background-image: url('./sorong-img/kuliner/Abon\ Gulung.jpeg');
         background-size: cover;
         background-position: center;
         box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
@@ -371,7 +371,7 @@ footer{
       width: 120px;
       flex-shrink: 0;
       height: 120px;
-      background-image: url('./medan-img/kuliner/lontong-medan.jpg');
+      background-image: url('./sorong-img/kuliner/Keripik\ Keladi.jpeg');
       background-size: cover;
       background-position: center;
       box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
@@ -383,7 +383,7 @@ footer{
     width: 120px;
     flex-shrink: 0;
     height: 120px;
-    background-image: url('./medan-img/kuliner/soto-medan.jpg');
+    background-image: url('./sorong-img/kuliner/Martabak\ Sagu.jpeg');
     background-size: cover;
     background-position: center;
     box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
@@ -632,7 +632,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('./medan-img/wisata/wisata-bukit-holbung-samosir.jpg');
+        background-image: url('./sorong-img/wisata/Danau\ Ayamaru.jpeg');
       }
       
 
@@ -661,7 +661,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('./medan-img/wisata/wisata-danau-toba.jpg');
+        background-image: url('./sorong-img/wisata/Air\ Terjun\ Sasnek.jpeg');
       }
       
 
@@ -690,7 +690,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('./medan-img/wisata/wisata-istana-maimun.jpg');
+        background-image: url('./sorong-img/wisata/Pulau\ Buaya.jpeg');
       }
       
 
@@ -719,7 +719,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('./medan-img/wisata/wisata-pemandian-bah-damanik.jpg');
+        background-image: url('./sorong-img/wisata/Puncak\ Petik\ Bintang.jpeg');
       }
       
 
@@ -748,7 +748,7 @@ footer{
         transition: border-radius 625ms, width 625ms;
         user-select: none;
         isolation: isolate;
-        background-image: url('./medan-img/wisata/wisata-ucok-durian.jpg');
+        background-image: url('./sorong-img/wisata/Raja\ Ampat.jpeg');
       }
       
 
