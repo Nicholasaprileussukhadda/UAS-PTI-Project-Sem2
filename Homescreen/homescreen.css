@@ -23,14 +23,14 @@ html, body {
 
 .image-container {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: top;
+  align-items: top;
 }
 
 .map {
@@ -40,8 +40,8 @@ html, body {
 
 .point {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: red;
   border-radius: 50%;
   cursor: pointer;
@@ -133,4 +133,45 @@ ul.navbar li a:hover {
 
 .point-name{
   position: absolute;
+}
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+}
+
+.parallax__layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallax__layer--back {
+  transform: translateZ(-2px) scale(3);
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.parallax h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.parallax p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.parallax__layer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

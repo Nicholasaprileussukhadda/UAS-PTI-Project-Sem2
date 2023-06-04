@@ -10,10 +10,12 @@
     <li><a href="../login/login.html">Back</a></li>
     <li><a href="../about/about.html">About Us</a></li>
   </ul>
-  <div class="container">
-    <div class="map-container">
-      <div class="image-container">
-        <img src="../img/Indo_map.png" alt="Image" class="map"/>
+  <!-- <div class="parallax">
+    <div class="parallax__layer parallax__layer--back"> -->
+      <div class="container">
+        <div class="map-container">
+          <div class="image-container">
+          <img src="../img/Indo_map.png" alt="Image" class="map"/>
 
         <div class="point" style="left: 12.1641%; top: 40.9815%;" onclick="Padang('Padang')"></div><p class="point-name" style="left: 12.1641%; top: 40.9815%;">Padang</p>
         <div class="point" style="left: 8.01562%; top: 19.212%;" onclick="Medan('Medan')"></div><p class="point-name" style="left: 8.01562%; top: 19.212%;">Medan</p>
@@ -25,10 +27,12 @@
         <div class="point" style="left: 43.8047%; top: 77.9458%;" onclick="Denpasar('Denpasar')"></div><p class="point-name" style="left: 43.8047%; top: 77.9458%;">Denpasar</p>
         <div class="point" style="left: 97.8047%; top: 49.6016%;" onclick="Jayapura('Jayapura')"></div><p class="point-name" style="left: 93.8047%; top: 49.6016%;">Jayapura</p>
         <div class="point" style="left: 78.3281%; top: 41.4198%;" onclick="Sorong('Sorong')"></div><p class="point-name"  style="left: 78.3281%; top: 41.4198%;">Sorong</p>
+        </div>
+          <div class="hover-box" id="detailsBox"></div>
+        </div>
       </div>
-      <div class="hover-box" id="detailsBox"></div>
-    </div>
-  </div>
+    <!-- </div>
+  </div> -->
 
   <script>
     function Padang(place) {
@@ -177,7 +181,6 @@
       var detailsBox = document.getElementById("detailsBox");
       detailsBox.style.display = "none";
     }
-
 
 
   </script>
